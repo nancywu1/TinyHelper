@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		9013C26C25B3B2A400E4E6BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9013C26B25B3B2A400E4E6BD /* AppDelegate.swift */; };
-		9013C26E25B3B2A400E4E6BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9013C26D25B3B2A400E4E6BD /* ViewController.swift */; };
+		9013C26E25B3B2A400E4E6BD /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9013C26D25B3B2A400E4E6BD /* LogInViewController.swift */; };
 		9013C27125B3B2A400E4E6BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9013C26F25B3B2A400E4E6BD /* Main.storyboard */; };
 		9013C27325B3B2A500E4E6BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9013C27225B3B2A500E4E6BD /* Assets.xcassets */; };
 		9013C27625B3B2A500E4E6BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9013C27425B3B2A500E4E6BD /* LaunchScreen.storyboard */; };
+		9013C27E25B3BC5500E4E6BD /* TinyHelper.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9013C27D25B3BC5500E4E6BD /* TinyHelper.storyboard */; };
+		9091C3E725B3F7C1005A9299 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9091C3E625B3F7C1005A9299 /* CreateAccountViewController.swift */; };
+		9091C3E925B3F822005A9299 /* CreateFamilyMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9091C3E825B3F822005A9299 /* CreateFamilyMemberViewController.swift */; };
+		9091C3EB25B3F85B005A9299 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9091C3EA25B3F85B005A9299 /* HomeScreenViewController.swift */; };
+		9091C3ED25B3F8DC005A9299 /* FamilyScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9091C3EC25B3F8DC005A9299 /* FamilyScreenViewController.swift */; };
+		9091C3EF25B3F906005A9299 /* TaskScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9091C3EE25B3F906005A9299 /* TaskScreenViewController.swift */; };
+		9091C3F125B3F92F005A9299 /* RewardScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9091C3F025B3F92F005A9299 /* RewardScreenViewController.swift */; };
+		9091C3F325B3F953005A9299 /* HistoryScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9091C3F225B3F953005A9299 /* HistoryScreenViewController.swift */; };
+		90ECFE4125B4C8A3004F1D58 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ECFE4025B4C8A3004F1D58 /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9013C26825B3B2A400E4E6BD /* TinyHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9013C26B25B3B2A400E4E6BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9013C26D25B3B2A400E4E6BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9013C26D25B3B2A400E4E6BD /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		9013C27025B3B2A400E4E6BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9013C27225B3B2A500E4E6BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9013C27525B3B2A500E4E6BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9013C27725B3B2A500E4E6BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9013C27D25B3BC5500E4E6BD /* TinyHelper.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TinyHelper.storyboard; sourceTree = "<group>"; };
+		9091C3E625B3F7C1005A9299 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		9091C3E825B3F822005A9299 /* CreateFamilyMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFamilyMemberViewController.swift; sourceTree = "<group>"; };
+		9091C3EA25B3F85B005A9299 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		9091C3EC25B3F8DC005A9299 /* FamilyScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyScreenViewController.swift; sourceTree = "<group>"; };
+		9091C3EE25B3F906005A9299 /* TaskScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskScreenViewController.swift; sourceTree = "<group>"; };
+		9091C3F025B3F92F005A9299 /* RewardScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardScreenViewController.swift; sourceTree = "<group>"; };
+		9091C3F225B3F953005A9299 /* HistoryScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreenViewController.swift; sourceTree = "<group>"; };
+		90ECFE4025B4C8A3004F1D58 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,31 @@
 		9013C26A25B3B2A400E4E6BD /* TinyHelper */ = {
 			isa = PBXGroup;
 			children = (
+				9091C3E525B3F772005A9299 /* New Group */,
 				9013C26B25B3B2A400E4E6BD /* AppDelegate.swift */,
-				9013C26D25B3B2A400E4E6BD /* ViewController.swift */,
+				9013C26D25B3B2A400E4E6BD /* LogInViewController.swift */,
 				9013C26F25B3B2A400E4E6BD /* Main.storyboard */,
+				9091C3EA25B3F85B005A9299 /* HomeScreenViewController.swift */,
+				9091C3E825B3F822005A9299 /* CreateFamilyMemberViewController.swift */,
+				9091C3E625B3F7C1005A9299 /* CreateAccountViewController.swift */,
 				9013C27225B3B2A500E4E6BD /* Assets.xcassets */,
 				9013C27425B3B2A500E4E6BD /* LaunchScreen.storyboard */,
 				9013C27725B3B2A500E4E6BD /* Info.plist */,
+				9013C27D25B3BC5500E4E6BD /* TinyHelper.storyboard */,
+				9091C3F025B3F92F005A9299 /* RewardScreenViewController.swift */,
+				9091C3EE25B3F906005A9299 /* TaskScreenViewController.swift */,
+				90ECFE4025B4C8A3004F1D58 /* MainTabBarController.swift */,
+				9091C3F225B3F953005A9299 /* HistoryScreenViewController.swift */,
+				9091C3EC25B3F8DC005A9299 /* FamilyScreenViewController.swift */,
 			);
 			path = TinyHelper;
+			sourceTree = "<group>";
+		};
+		9091C3E525B3F772005A9299 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +160,7 @@
 				9013C27625B3B2A500E4E6BD /* LaunchScreen.storyboard in Resources */,
 				9013C27325B3B2A500E4E6BD /* Assets.xcassets in Resources */,
 				9013C27125B3B2A400E4E6BD /* Main.storyboard in Resources */,
+				9013C27E25B3BC5500E4E6BD /* TinyHelper.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +171,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9013C26E25B3B2A400E4E6BD /* ViewController.swift in Sources */,
+				9091C3ED25B3F8DC005A9299 /* FamilyScreenViewController.swift in Sources */,
+				9091C3EF25B3F906005A9299 /* TaskScreenViewController.swift in Sources */,
+				90ECFE4125B4C8A3004F1D58 /* MainTabBarController.swift in Sources */,
+				9091C3E725B3F7C1005A9299 /* CreateAccountViewController.swift in Sources */,
+				9013C26E25B3B2A400E4E6BD /* LogInViewController.swift in Sources */,
+				9091C3E925B3F822005A9299 /* CreateFamilyMemberViewController.swift in Sources */,
 				9013C26C25B3B2A400E4E6BD /* AppDelegate.swift in Sources */,
+				9091C3F325B3F953005A9299 /* HistoryScreenViewController.swift in Sources */,
+				9091C3F125B3F92F005A9299 /* RewardScreenViewController.swift in Sources */,
+				9091C3EB25B3F85B005A9299 /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
