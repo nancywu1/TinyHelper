@@ -20,8 +20,12 @@ class HomeScreenViewController: UIViewController {
     
         //tabBarController?.selectedIndex = 0
         
-        self.tabBarController?.selectedIndex = 0
+        //self.tabBarController?.selectedIndex = 0
        
+    }
+    
+    override func viewDidLayoutSubviews() {
+        self.tabBarController?.selectedIndex = 2
     }
     
     @IBOutlet var homeScreenView: UIView!

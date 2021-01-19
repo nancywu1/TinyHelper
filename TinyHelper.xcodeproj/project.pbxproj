@@ -13,6 +13,8 @@
 		9013C27325B3B2A500E4E6BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9013C27225B3B2A500E4E6BD /* Assets.xcassets */; };
 		9013C27625B3B2A500E4E6BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9013C27425B3B2A500E4E6BD /* LaunchScreen.storyboard */; };
 		9013C27E25B3BC5500E4E6BD /* TinyHelper.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9013C27D25B3BC5500E4E6BD /* TinyHelper.storyboard */; };
+		9090A4D125B6886800355395 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9090A4D025B6886800355395 /* AddTaskViewController.swift */; };
+		9090A4D325B7491000355395 /* TaskDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9090A4D225B7491000355395 /* TaskDetailsViewController.swift */; };
 		9091C3E725B3F7C1005A9299 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9091C3E625B3F7C1005A9299 /* CreateAccountViewController.swift */; };
 		9091C3E925B3F822005A9299 /* CreateFamilyMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9091C3E825B3F822005A9299 /* CreateFamilyMemberViewController.swift */; };
 		9091C3EB25B3F85B005A9299 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9091C3EA25B3F85B005A9299 /* HomeScreenViewController.swift */; };
@@ -32,6 +34,8 @@
 		9013C27525B3B2A500E4E6BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9013C27725B3B2A500E4E6BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9013C27D25B3BC5500E4E6BD /* TinyHelper.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TinyHelper.storyboard; sourceTree = "<group>"; };
+		9090A4D025B6886800355395 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		9090A4D225B7491000355395 /* TaskDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsViewController.swift; sourceTree = "<group>"; };
 		9091C3E625B3F7C1005A9299 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		9091C3E825B3F822005A9299 /* CreateFamilyMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFamilyMemberViewController.swift; sourceTree = "<group>"; };
 		9091C3EA25B3F85B005A9299 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				9013C27425B3B2A500E4E6BD /* LaunchScreen.storyboard */,
 				9013C27725B3B2A500E4E6BD /* Info.plist */,
 				9013C27D25B3BC5500E4E6BD /* TinyHelper.storyboard */,
+				9090A4D225B7491000355395 /* TaskDetailsViewController.swift */,
+				9090A4D025B6886800355395 /* AddTaskViewController.swift */,
 				9091C3F025B3F92F005A9299 /* RewardScreenViewController.swift */,
 				9091C3EE25B3F906005A9299 /* TaskScreenViewController.swift */,
 				90ECFE4025B4C8A3004F1D58 /* MainTabBarController.swift */,
@@ -177,9 +183,11 @@
 				9091C3E725B3F7C1005A9299 /* CreateAccountViewController.swift in Sources */,
 				9013C26E25B3B2A400E4E6BD /* LogInViewController.swift in Sources */,
 				9091C3E925B3F822005A9299 /* CreateFamilyMemberViewController.swift in Sources */,
+				9090A4D125B6886800355395 /* AddTaskViewController.swift in Sources */,
 				9013C26C25B3B2A400E4E6BD /* AppDelegate.swift in Sources */,
 				9091C3F325B3F953005A9299 /* HistoryScreenViewController.swift in Sources */,
 				9091C3F125B3F92F005A9299 /* RewardScreenViewController.swift in Sources */,
+				9090A4D325B7491000355395 /* TaskDetailsViewController.swift in Sources */,
 				9091C3EB25B3F85B005A9299 /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
